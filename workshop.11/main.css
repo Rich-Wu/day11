@@ -1,6 +1,11 @@
 body {
   margin: 0px;
   font-family: sans-serif;
+  background-image: url('https://flatiron-v3-production.imgix.net/wework-white-house-common.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-color: #b7b7b7;
 }
 
 .hidden {
@@ -9,7 +14,7 @@ body {
 
 nav {
   color: white;
-  background-color: #ff00ae;
+  background-color: #314594;
   padding: 1px;
 }
 
@@ -30,7 +35,7 @@ form {
   left: 10px;
   color: white;
   margin-top: 5px;
-  background-color: #ffa5a5;
+  background-color: #1b2646;
   width: 300px;
 }
 
@@ -60,25 +65,25 @@ form>h2 {
 
 #step-1 {
   position: absolute;
-  top: 90px;
-  left: 290px;
+  top: 63px;
+  left: 295px;
 }
 
 #step-2 {
   position: absolute;
-  top: 110px;
+  top: 122px;
   left: 290px;
 }
 
 #step-3 {
   position: absolute;
-  top: 150px;
+  top: 165px;
   left: 290px;
 }
 
 #step-4 {
   position: absolute;
-  top: 180px;
+  top: 190px;
   left: 290px;
 }
 
@@ -98,17 +103,19 @@ input[type='password'] {
 
 input[type='checkbox'] {
   margin-left: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 input[type='submit'] {
-  color: white;
+  border: 0px;
+  color: #272727;
   background-color: #a8a8e2;
-  margin-left: 56px;
+  margin-left: 60px;
   margin-bottom: 15px;
 }
 
-button {
-  color: white;
+#walkthrough {
+  border: 0px;
+  color: #272727;
   background-color: #a8a8e2;
 }
