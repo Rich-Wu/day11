@@ -1,10 +1,12 @@
 var helpBtn = document.getElementById('walkthrough');
 var nextBtn = document.getElementsByClassName('nextBtn');
-var step = 1;
+let step = 1;
 helpBtn.addEventListener('click',helpPrompts);
+
 for (eachNext = 0;eachNext < nextBtn.length;eachNext++) {
   nextBtn[eachNext].addEventListener('click',nextStep);
 }
+
 function helpPrompts() {
   console.log("This man needs help.");
   document.getElementById('step-'+step).style.visibility = 'visible';
