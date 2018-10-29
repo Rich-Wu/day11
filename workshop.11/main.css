@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+nav {
+  color: white;
+  background-color: #ff00ae;
+  padding: 1px;
+}
+
+ul {
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+li {
+  font-weight: bolder;
+  padding-left: 20px;
+  display: inline;
+}
+
+form {
+  color: white;
+  margin-top: 5px;
+  background-color: #ffa5a5;
+  width: 300px;
+}
+
+form>h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.walkthrough-tip {
+  border: 2px solid white;
+  box-shadow: -3px 3px 5px darkgray;
+  background-color: gray;
+  opacity: 1;
+  display: run-in;
+  width: 300px;
+  text-align: center;
+}
+
+.walkthrough-tip p {
+  color: white;
+  padding: 0px;
+  margin: 2px 2px;
+  font-size: 0.9em;
+}
+
+#step-1 {
+  position: absolute;
+  top: 90px;
+  left: 290px;
+}
+
+#step-2 {
+  position: absolute;
+  top: 110px;
+  left: 290px;
+}
+
+#step-3 {
+  position: absolute;
+  top: 150px;
+  left: 290px;
+}
+
+#step-4 {
+  position: absolute;
+  top: 180px;
+  left: 290px;
+}
+
+h4 {
+  margin: 5px 0px;
+}
+
+input[type='email'] {
+  margin-left: 55px;
+  margin-bottom: 2px;
+}
+
+input[type='password'] {
+  margin-left: 55px;
+  margin-bottom: 8px;
+}
+
+input[type='checkbox'] {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  color: white;
+  background-color: #a8a8e2;
+  margin-left: 90px;
+  margin-bottom: 10px;
+}

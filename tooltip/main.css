@@ -1,0 +1,15 @@
+#tooltip {
+  visibility: hidden;
+  width: 300px;
+  height: 100px;
+  background-color: gray;
+  margin-left: 26px;
+}
+
+#tooltip p {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  padding: 7px;
+  text-align: justify;
+  margin-top: 4px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Walkthrough</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Help</li>
+        <li>TheySupport</li>
+      </ul>
+    </nav>
+    <form class="signup-form">
+    <h2>Sign up for TheyWork</h2>
+      <input type="email" name="email" placeholder="Email address"><br>
+      <input type="password" name="password" placeholder="Create a Password"><br>
+      <input type="checkbox" name="terms"> I agree to the Terms of Service<br>
+      <input type="submit" value="Create Account">
+    </form>
+    <h4>Need more help?</h4>
+    <button id="walkthrough">Help me</button>
+
+    <div id="step-1" class="walkthrough-tip step-1 hidden">
+      <p>First you sign up for our site. We value your cooperation. Becoming a member is the first step!</p>
+      <button class="nextBtn">Next</button>
+    </div>
+
+    <div id="step-2" class="walkthrough-tip hidden">
+      <p>Next you'll fill out the form! You're almost done! Click next to continue!</p>
+      <button class="nextBtn">Next</button>
+    </div>
+
+    <div id="step-3" class="walkthrough-tip hidden">
+      <p>Agree to the terms of service! No, you don't have to read it!</p>
+      <button class="nextBtn">Next</button>
+    </div>
+
+    <div id="step-4" class="walkthrough-tip hidden">
+      <p>Click on "Create Account"! This gives us your personal information.</p>
+      <button class="nextBtn">Next</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
