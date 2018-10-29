@@ -103,15 +103,20 @@ input[type='password'] {
 }
 
 input[type='checkbox'] {
-  margin-left: 25px;
-  margin-bottom: 12px;
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+
+label {
+  font-size: 0.8em;
+  vertical-align: text-top;
 }
 
 input[type='submit'] {
   border: 0px;
   color: #272727;
   background-color: #a8a8e2;
-  margin-left: 60px;
+  margin-left: 59px;
   margin-bottom: 15px;
 }
 
