@@ -10,18 +10,18 @@ for (eachNext = 0;eachNext < nextBtn.length;eachNext++) {
 
 function helpPrompts() {
   // console.log("This man needs help.");
-  document.getElementById('step-'+step).style.visibility = 'visible';
+  document.getElementById('step-'+step).classList.remove('hidden');
 }
 
 function nextStep() {
   // console.log('This man needs more help.');
   if (step < nextBtn.length) {
-    document.getElementById('step-'+step).style.visibility = 'hidden';
+    document.getElementById('step-'+step).classList.add('hidden');
     step++;
-    document.getElementById('step-'+step).style.visibility = 'visible';
+    document.getElementById('step-'+step).classList.remove('hidden');
     // console.log("on step "+step);
   } else {
-    document.getElementById('step-'+step).style.visibility = 'hidden';
+    document.getElementById('step-'+step).classList.add('hidden');
     step = 1;
     // console.log("on step "+step);
   }
