@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-color: #b7b7b7;
+  background-position: 0% 9%;
 }
 
 .hidden {
